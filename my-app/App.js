@@ -3,8 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet } from 'react-native';
-import LoginScreen from '../my-app/LoginScreen'; // Asegúrate de reemplazar esto con la ruta correcta a tu archivo LoginScreen
-
+import LoginScreen from '../my-app/LoginScreen'; 
 const Stack = createStackNavigator();
 
 export default function App() {
